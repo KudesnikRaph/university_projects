@@ -1,0 +1,51 @@
+# Файлы сборки и исполняемые файлы
+*.exe
+*.out
+*.app
+
+# Объектные файлы
+*.o
+*.obj
+
+# Файлы зависимостей
+*.d
+
+# Директории сборки
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Кэш IDE и настройки
+.vs/
+.vscode/
+*.suo
+*.user
+*.sdf
+
+# Проектные файлы IDE
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Прочие
+*.log
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Директории для хранения временных файлов
+tmp/
+temp/
