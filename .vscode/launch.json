@@ -2,16 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
+      "name": "Debug active file",
       "type": "cppdbg",
       "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/koles/Documents/GitHub/university_projects/lab_C++/coursework",
-      "program": "c:/Users/koles/Documents/GitHub/university_projects/lab_C++/coursework/build/Debug/outDebug",
+      "cwd": "${fileDirname}",
+      "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
+      "preLaunchTask": "build active file",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
